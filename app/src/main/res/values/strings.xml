@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">RTU Keep</string>
+    <string name="add_note">Add note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="main_list_items_description">Empty list</string>
+    <string name="main_list_empty_text">Added notes appear here</string>
+    <string name="main_add_button_description">Add note</string>
+    <string name="main_note_added_text">Note added</string>
+    <string name="main_note_updated_text">Note updated</string>
+    <string name="main_note_deleted_text">Note deleted</string>
+    <string name="main_night_mode_button_text">Night mode</string>
+    <string name="main_switch_language_button_text">Switch language</string>
+    <string name="element_delete_button_text">Delete</string>
+    <string name="element_share_button_text">Share</string>
+    <string name="text_tab">Text</string>
+    <string name="text_title">Title (required)</string>
+    <string name="text_note">Note (required)</string>
+    <string name="text_color">Color</string>
+    <string name="text_title_empty_text">Title cannot be empty</string>
+    <string name="text_note_empty_text">Note cannot be empty</string>
+    <string name="image_tab">Image</string>
+    <string name="image_camera_button">Take a picture</string>
+    <string name="image_picture_description">Picture</string>
+    <string name="image_picture_empty_text">Picture should be taken first</string>
+    <string name="movie_tab">Movie</string>
+    <string name="movie_generate_button">Generate movie</string>
+    <string name="movie_image_description">Movie poster</string>
+    <string name="movie_not_generated_text">Movie should be generated first</string>
+    <string name="all_save_button">Save</string>
+    <string name="all_delete_description">Delete</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="email_subject">Shared note from</string>
+    <string name="email_text_text">You shared a text note</string>
+    <string name="email_image_text">You shared an image note</string>
+    <string name="email_movie_text">You shared a movie note</string>
+    <string name="email_title_text">Title</string>
+    <string name="email_note_text">Note</string>
+    <string name="email_rating_text">Rating</string>
+    <string name="fragment_delete_title">Delete note</string>
+    <string name="fragment_delete_message">Are you sure to delete the note?</string>
+    <string name="fragment_delete_ok">OK</string>
+    <string name="fragment_delete_cancel">Cancel</string>
+    <string name="permissions_denied_explanation">The app will not work properly without all permissions</string>
+    <string name="settings_text">Settings</string>
+</resources>

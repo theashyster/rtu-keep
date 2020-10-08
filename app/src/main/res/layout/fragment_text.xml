@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.element.fragments.TextFragment">
+
+    <EditText
+        android:id="@+id/textTitleEditText"
+        style="@style/MarginNoBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_title"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textNoteEditText"
+        style="@style/MarginNoBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:hint="@string/text_note"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitleEditText" />
+
+    <TextView
+        android:id="@+id/textColorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:text="@string/text_color"
+        android:textSize="@dimen/text_16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNoteEditText" />
+
+    <Spinner
+        android:id="@+id/textColorSpinner"
+        style="@style/MarginNoBottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textColorTextView"
+        app:layout_constraintTop_toBottomOf="@+id/textNoteEditText" />
+
+    <Button
+        android:id="@+id/textSaveButton"
+        style="@style/MarginNoTop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/all_save_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/switchLanguageButton"
+        android:icon="@drawable/ic_language"
+        android:title="@string/main_switch_language_button_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nightModeButton"
+        android:icon="@drawable/ic_night_mode"
+        android:title="@string/main_night_mode_button_text"
+        app:showAsAction="ifRoom" />
+</menu>
